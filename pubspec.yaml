@@ -1,4 +1,4 @@
-name: pointycastle-hcb
+name: pointycastle_hcb
 version: 1.0.2
 author: The Pointy Castle team
 description: A Dart library implementing cryptographic algorithms
