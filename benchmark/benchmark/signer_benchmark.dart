@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.benchmark.benchmark.signer_benchmark;
+library pointycastle_hcb.benchmark.benchmark.signer_benchmark;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_hcb/pointycastle.dart";
 
 import "../benchmark/rate_benchmark.dart";
 

@@ -2,10 +2,10 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.benchmark.signers.rsa_signer_benchmark;
+library pointycastle_hcb.benchmark.signers.rsa_signer_benchmark;
 
-import "package:pointycastle/pointycastle.dart";
-import "package:pointycastle/signers/rsa_signer.dart";
+import "package:pointycastle_hcb/pointycastle.dart";
+import "package:pointycastle_hcb/signers/rsa_signer.dart";
 
 import "../benchmark/signer_benchmark.dart";
 import "../../test/test/src/null_digest.dart";
