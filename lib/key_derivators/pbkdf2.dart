@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.key_derivator.pbkdf2;
+library pointycastle_hcb.impl.key_derivator.pbkdf2;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/key_derivators/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_key_derivator.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/key_derivators/api.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
+import "package:pointycastle_hcb/src/impl/base_key_derivator.dart";
 
 /**
  * Generator for PBE derived keys and ivs as defined by PKCS 5 V2.0 Scheme 2. This generator uses a SHA-1 HMac as the

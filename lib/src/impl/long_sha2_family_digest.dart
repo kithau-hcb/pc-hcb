@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.impl.digests.long_sha2_family_digest;
+library pointycastle_hcb.src.impl.digests.long_sha2_family_digest;
 
 import "dart:typed_data";
 
-import "package:pointycastle/src/ufixnum.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
+import "package:pointycastle_hcb/src/ufixnum.dart";
+import "package:pointycastle_hcb/src/impl/base_digest.dart";
 
 /// Base implementation of SHA-2 family algorithms SHA-384 and SHA-512.
 abstract class LongSHA2FamilyDigest extends BaseDigest {

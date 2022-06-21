@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.block_cipher.aes_fast;
+library pointycastle_hcb.impl.block_cipher.aes_fast;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_block_cipher.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/impl/base_block_cipher.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
+import "package:pointycastle_hcb/src/ufixnum.dart";
 
 /**
  * An implementation of the AES (Rijndael), from FIPS-197.

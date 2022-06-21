@@ -2,15 +2,15 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.ecc.ecc_fp;
+library pointycastle_hcb.impl.ecc.ecc_fp;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/ecc/ecc_base.dart"
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/ecc/ecc_base.dart"
     hide ECFieldElementBase, ECPointBase, ECCurveBase;
-import "package:pointycastle/ecc/ecc_base.dart" as ecc;
-import "package:pointycastle/src/utils.dart" as utils;
+import "package:pointycastle_hcb/ecc/ecc_base.dart" as ecc;
+import "package:pointycastle_hcb/src/utils.dart" as utils;
 
 /** return index of lowest 1-bit in x, x < 2^31 */
 int _lbit(BigInt x) {

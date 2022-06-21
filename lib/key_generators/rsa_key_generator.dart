@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.key_generator.rsa_key_generator;
+library pointycastle_hcb.impl.key_generator.rsa_key_generator;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/asymmetric/api.dart";
-import "package:pointycastle/key_generators/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/asymmetric/api.dart";
+import "package:pointycastle_hcb/key_generators/api.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
 
 bool _testBit(BigInt i, int n) {
   return (i & (BigInt.one << n)) != BigInt.zero;

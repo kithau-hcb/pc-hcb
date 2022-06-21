@@ -4,11 +4,11 @@
 
 /**
  * This is the main entry point to the cipher library API. It includes libraries
- * [pointycastle.api] (which comprises the whole API specification) and
- * [pointycastle.impl] (which defines algorithm implementations and all
+ * [pointycastle_hcb.api] (which comprises the whole API specification) and
+ * [pointycastle_hcb.impl] (which defines algorithm implementations and all
  * [CipherParameters] to be used with them).
  */
-library pointycastle.pointycastle;
+library pointycastle_hcb.pointycastle;
 
-export "package:pointycastle/api.dart";
-export "package:pointycastle/impl.dart";
+export "package:pointycastle_hcb/api.dart";
+export "package:pointycastle_hcb/impl.dart";

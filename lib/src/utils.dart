@@ -2,7 +2,7 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.utils;
+library pointycastle_hcb.src.utils;
 
 import "dart:typed_data";
 

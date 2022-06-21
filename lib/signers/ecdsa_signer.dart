@@ -2,15 +2,15 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.signer.ecdsa_signer;
+library pointycastle_hcb.impl.signer.ecdsa_signer;
 
 import "dart:typed_data";
 import "dart:math";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/ecc/api.dart";
-import "package:pointycastle/src/utils.dart" as utils;
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/ecc/api.dart";
+import "package:pointycastle_hcb/src/utils.dart" as utils;
+import "package:pointycastle_hcb/src/registry/registry.dart";
 
 bool _testBit(BigInt i, int n) {
   return (i & (BigInt.one << n)) != BigInt.zero;

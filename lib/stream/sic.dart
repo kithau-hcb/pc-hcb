@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.stream_cipher.sic;
+library pointycastle_hcb.impl.stream_cipher.sic;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_stream_cipher.dart";
-import "package:pointycastle/src/ufixnum.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/impl/base_stream_cipher.dart";
+import "package:pointycastle_hcb/src/ufixnum.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
 
 /**
  * Implementation of SIC mode of operation as a [StreamCipher]. This implementation uses the IV as the initial nonce value and

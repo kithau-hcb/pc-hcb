@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.mac.hmac;
+library pointycastle_hcb.impl.mac.hmac;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_mac.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
+import "package:pointycastle_hcb/src/impl/base_mac.dart";
 
 /**
  * HMAC implementation based on RFC2104

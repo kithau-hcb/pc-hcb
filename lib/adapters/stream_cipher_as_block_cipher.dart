@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.adapters.stream_cipher_as_block_cipher;
+library pointycastle_hcb.impl.adapters.stream_cipher_as_block_cipher;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_block_cipher.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/impl/base_block_cipher.dart";
 
 /// An adapter to convert an [StreamCipher] to a [BlockCipher]
 class StreamCipherAsBlockCipher extends BaseBlockCipher {

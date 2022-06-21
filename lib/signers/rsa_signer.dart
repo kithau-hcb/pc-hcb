@@ -2,15 +2,15 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.signer.rsa_signer;
+library pointycastle_hcb.impl.signer.rsa_signer;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/asymmetric/api.dart";
-import "package:pointycastle/asymmetric/pkcs1.dart";
-import "package:pointycastle/asymmetric/rsa.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/asymmetric/api.dart";
+import "package:pointycastle_hcb/asymmetric/pkcs1.dart";
+import "package:pointycastle_hcb/asymmetric/rsa.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
 
 // TODO: implement full ASN1 encoding (for now I will do a little ad-hoc implementation of just what is needed here)
 class RSASigner implements Signer {

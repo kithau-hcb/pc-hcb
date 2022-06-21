@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.impl.base_asymmetric_block_cipher;
+library pointycastle_hcb.src.impl.base_asymmetric_block_cipher;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
+import "package:pointycastle_hcb/api.dart";
 
 /// Base implementation of [AsymmetricBlockCipher] which provides shared methods.
 abstract class BaseAsymmetricBlockCipher implements AsymmetricBlockCipher {

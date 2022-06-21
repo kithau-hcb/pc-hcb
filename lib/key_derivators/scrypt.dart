@@ -2,18 +2,18 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.key_derivator.scrypt;
+library pointycastle_hcb.impl.key_derivator.scrypt;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/digests/sha256.dart";
-import "package:pointycastle/key_derivators/api.dart";
-import "package:pointycastle/key_derivators/pbkdf2.dart";
-import "package:pointycastle/macs/hmac.dart";
-import "package:pointycastle/src/impl/base_key_derivator.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/digests/sha256.dart";
+import "package:pointycastle_hcb/key_derivators/api.dart";
+import "package:pointycastle_hcb/key_derivators/pbkdf2.dart";
+import "package:pointycastle_hcb/macs/hmac.dart";
+import "package:pointycastle_hcb/src/impl/base_key_derivator.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
+import "package:pointycastle_hcb/src/ufixnum.dart";
 
 /**
  * Implementation of SCrypt password based key derivation function. See the next link for info on

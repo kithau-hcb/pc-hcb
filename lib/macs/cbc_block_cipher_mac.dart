@@ -2,15 +2,15 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.mac.cbc_block_cipher_mac;
+library pointycastle_hcb.impl.mac.cbc_block_cipher_mac;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_mac.dart";
-import "package:pointycastle/paddings/iso7816d4.dart";
-import "package:pointycastle/block/modes/cbc.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
+import "package:pointycastle_hcb/src/impl/base_mac.dart";
+import "package:pointycastle_hcb/paddings/iso7816d4.dart";
+import "package:pointycastle_hcb/block/modes/cbc.dart";
 
 /// standard CBC Block Cipher MAC - if no padding is specified the default of
 /// pad of zeroes is used.

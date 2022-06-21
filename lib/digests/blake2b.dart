@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.digest.blake2b;
+library pointycastle_hcb.impl.digest.blake2b;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/impl/base_digest.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
+import "package:pointycastle_hcb/src/ufixnum.dart";
 
 class Blake2bDigest extends BaseDigest implements Digest {
   static final FactoryConfig FACTORY_CONFIG =

@@ -2,15 +2,15 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.mac.cmac;
+library pointycastle_hcb.impl.mac.cmac;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_mac.dart";
-import "package:pointycastle/paddings/iso7816d4.dart";
-import "package:pointycastle/block/modes/cbc.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
+import "package:pointycastle_hcb/src/impl/base_mac.dart";
+import "package:pointycastle_hcb/paddings/iso7816d4.dart";
+import "package:pointycastle_hcb/block/modes/cbc.dart";
 
 /**
  * CMAC - as specified at www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html

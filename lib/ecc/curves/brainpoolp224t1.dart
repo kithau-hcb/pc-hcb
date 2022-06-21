@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.ec_domain_parameters.brainpoolp224t1;
+library pointycastle_hcb.impl.ec_domain_parameters.brainpoolp224t1;
 
-import "package:pointycastle/ecc/api.dart";
-import "package:pointycastle/ecc/ecc_base.dart";
-import "package:pointycastle/src/ec_standard_curve_constructor.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_hcb/ecc/api.dart";
+import "package:pointycastle_hcb/ecc/ecc_base.dart";
+import "package:pointycastle_hcb/src/ec_standard_curve_constructor.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
 
 class ECCurve_brainpoolp224t1 extends ECDomainParametersImpl {
   static final FactoryConfig FACTORY_CONFIG = new StaticFactoryConfig(

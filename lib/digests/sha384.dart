@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.digest.sha384;
+library pointycastle_hcb.impl.digest.sha384;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/long_sha2_family_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/impl/long_sha2_family_digest.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
 
 /// Implementation of SHA-384 digest.
 class SHA384Digest extends LongSHA2FamilyDigest implements Digest {

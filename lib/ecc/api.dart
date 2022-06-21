@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.api.ecc;
+library pointycastle_hcb.api.ecc;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_hcb/api.dart";
+import "package:pointycastle_hcb/src/registry/registry.dart";
 
 /// Standard ECC curve description
 abstract class ECDomainParameters {
