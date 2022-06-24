@@ -2,7 +2,7 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-part of api;
+part of pointycastle_hcb.api;
 
 /// All cipher initialization parameters classes implement this.
 abstract class CipherParameters {}
